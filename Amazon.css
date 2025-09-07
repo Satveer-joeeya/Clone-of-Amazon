@@ -1,0 +1,446 @@
+*
+{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+body
+{
+    background-color: #f3f3f3;
+}
+/* first nav */
+#navbar
+{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+/* box1 */
+#nav-logo
+{
+    height: 50px;
+    width: 150;
+}
+#logo
+{
+    height: 50px;
+    width: 140px;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+/* box2 */
+#nav-add
+{
+    height: 50px;
+    width: 70px;
+}
+#p-add
+{
+    font-size: 0.85rem;
+    margin-top: 5px;
+    color: #cccccc;
+    margin-left: 15px;
+}
+#p1-add{margin-left: 5px;}
+#add1
+{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+#search
+{
+    height: 40px;
+    width: 329px;
+    background-color: pink;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#select
+{
+    height: 40px;
+    width: 52px;
+    background-color: #f3f3f3;
+    font-size: 0.85rem;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#search-bar
+{
+    width: 100%;
+}
+#icon
+{
+    width: 45px;
+    height: 40px;
+    background-color: #febd62;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#s1
+{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.hov
+{
+    border: 0.5px solid transparent;
+    border-radius: 1px;
+}
+.search
+{
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.hov:hover
+{
+    border: 0.5px solid white;
+    border-radius: 3px;
+}
+.search:hover
+{
+    border: 2px solid rgb(218, 167, 13);
+    border-radius: 7px;
+}
+#icon:hover{cursor: pointer;}
+/* box4 */
+span
+{
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+#sign
+{
+    display: flex;
+    font-weight: 700;
+    color: #ffffff;
+}
+#sign-list
+{
+    margin-left: 3px;
+    background-color: #0f1111;
+    border: #0f1111;
+    color: #ffffff;
+}
+/* box5 */
+#language
+{
+    height: 55px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flag
+{   
+    height: 16px;
+    width: 21px;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=612x612&w=0&k=20&c=ndMmdJY9qsL4f_dJBSDbPjD213GD5s_YcZAJK8z2uTQ=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+#country
+{
+    margin-left: 5px;
+    font-size: 0.85rem;
+}
+#con-select
+{
+    background-color: #0f1111;
+    color: #ffffff;
+    border: transparent;
+}
+#return-order
+{
+     display: flex;
+    font-weight: 700;
+}
+/* box6 */
+#nav-cart i
+{
+    font-size: 30px;
+}
+#nav-cart
+{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+/* title */
+#title
+{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#title a
+{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+/* event */
+
+/* shop area */
+#shop-area1
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    top: -200px;
+}
+#shop-area2
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* home-decore */
+#box1
+{
+    height: 380px;
+    width: 311px;
+    background-color: #ffffff;
+    margin: 15px;
+    padding-right: 10px;
+}
+#box1 img{
+    height: 100px;
+    width: 116px;
+    padding-left: 10px;
+    display: flex;
+}
+#box1 a
+{
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+}
+#box1 h2
+{
+    padding : 10px ;
+}
+#box1 p
+{
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+#img1
+{
+    display: flex;
+}
+/* bike-area */
+#bike-area
+{
+    height: 300px;
+    width: 98%;
+    background-color: #ffffff;
+    margin: 10px;
+    padding-right: 5px;
+}
+#bike-head
+{
+    margin: 10px;
+    display: flex;
+}
+#bike-head span
+{
+    color: black;
+    text-decoration: none;
+}
+#bike-head a
+{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#bike-img
+{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+/* big box */
+#big-box1
+{
+    height: 380px;
+    width: 311px;
+    background-color: #ffffff;
+    margin: 5px;
+    padding-right: 10px;
+}
+#big-box1 a
+{
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 10px;
+}
+#big-box1 h2
+{
+    padding : 10px ;
+}
+#big-img1
+{
+    height: 270px;
+    width: 280px;
+    margin-left: 10px;
+    background-color: #0f1111;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/2025/Jupiter2025/PC_CC_758x608._SY608_CB803103082_.jpg");
+    background-size: cover;
+}
+#big-img2
+{
+    height: 270px;
+    width: 280px;
+    margin-left: 10px;
+    background-image: url("https://m.media-amazon.com/images/I/51ljnEaW0pL._AC_SY350_.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#big-img3
+{
+    height: 270px;
+    width: 280px;
+    margin-left: 10px;
+    background-image: url("https://m.media-amazon.com/images/I/71I53evweVL._AC_SY340_.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#big-img4
+{
+    height: 270px;
+    width: 280px;
+    margin-left: 10px;
+    background-image: url("https://m.media-amazon.com/images/I/71P85R392uL._AC_UY327_FMwebp_QL65_.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/* footer */
+#footer
+{
+    height: 655px;
+    background-color: #172535;
+}
+/* sign-in */
+#sign-in
+{
+    height: 170px;
+    background-color: white;
+    padding-top: 50px;
+}
+#sign-option
+{
+    height: 147;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sign-option button
+{
+    background-color: #ecca0dd0;
+    height: 30px;
+    width: 130px;
+    font-size: 0.94rem;
+    border: transparent;
+    border-radius: 30px;
+    margin: 5px;
+}
+#sign-option span{
+    font-weight: 0.7rem;
+    color: black;
+}
+#sign-option a{
+    font-size: 0.7rem;
+    color: rgb(68, 68, 230);
+}
+#back
+{
+    height: 49px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#mid
+{
+    height: 419px;
+    background-color: #172535;
+    display: flex;
+    justify-content: space-evenly;
+    color: #f3f3f3;
+    margin: 30px;
+}
+#contact
+{
+    height: 300px;
+    width: 150px;
+}
+#make-moeny
+{
+    height: 300px;
+    width: 226px;
+}
+#help
+{
+    height: 300px;
+    width: 200px;
+}
+.list li
+{
+    list-style-type: none;
+    margin: 10px;
+    position: relative;
+    margin-left: 0px;
+}
+#footer h3
+{
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+#bottom
+{
+    height: 185px;
+    background-color: #0f1111;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#bott-link a{
+    text-decoration: none;
+    color: #f3f3f3;
+    margin: 10px;
+}
+#copy
+{
+    margin-top: 15px;
+}
